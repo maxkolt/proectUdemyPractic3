@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e89bcc0-da90-406d-b946-853d3264ccd3" name="Default Changelist" comment="работа с табами">
+    <list default="true" id="9e89bcc0-da90-406d-b946-853d3264ccd3" name="Default Changelist" comment="работа с табами завершена">
+      <change afterPath="$PROJECT_DIR$/src/js/modules/forms.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <workItem from="1607162186640" duration="14000" />
       <workItem from="1607162536209" duration="2275000" />
       <workItem from="1607165183353" duration="159000" />
-      <workItem from="1607171277876" duration="5775000" />
+      <workItem from="1607171277876" duration="6851000" />
     </task>
     <task id="LOCAL-00001" summary="Новый репозиторий для практики">
       <created>1607163003518</created>
@@ -83,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607175541659</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="работа с табами завершена">
+      <created>1607177155266</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607177155266</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +111,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Новый репозиторий для практики" />
     <MESSAGE value="работа с табами" />
-    <option name="LAST_COMMIT_MESSAGE" value="работа с табами" />
+    <MESSAGE value="работа с табами завершена" />
+    <option name="LAST_COMMIT_MESSAGE" value="работа с табами завершена" />
   </component>
 </project>
