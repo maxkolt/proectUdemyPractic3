@@ -9,10 +9,10 @@ const changeModalState = (state) => {
     checkNumInputs('#height');
 
 
-    function bindActionToElems (event, elem, prop) {
+    function bindActionToElems(event, elem, prop) {
         elem.forEach((item, i) => {
             item.addEventListener(event, () => {
-                switch(item.nodeName) {
+                switch (item.nodeName) {
                     case 'SPAN' :
                         state[prop] = i;
                         break;
@@ -33,6 +33,17 @@ const changeModalState = (state) => {
                         state[prop] = item.value;
                         break;
                 }
-            };
+
+                console.log(state);
+            });
+        });
+    }
+
+    bindActionToElems('click', windowForm, 'form');
+    bindActionToElems('input', windowHeight, 'height');
+    bindActionToElems('input', windowWidth, 'width');
+    bindActionToElems('change', windowType, 'type');
+    bindActionToElems('change', windowProfile, 'profile');
+};
 
 export default changeModalState;
