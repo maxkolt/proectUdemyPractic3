@@ -5,6 +5,12 @@ const changeModalState = (state) => {
         windowType = document.querySelectorAll('#view_type'),
         windowProfile = document.querySelectorAll('.checkbox');
 
+    checkNumInputs('#width');
+    checkNumInputs('#height');
+
+
+
+
 };
 
 export default changeModalState;
