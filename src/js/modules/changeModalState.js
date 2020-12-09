@@ -8,7 +8,11 @@ const changeModalState = (state) => {
     checkNumInputs('#width');
     checkNumInputs('#height');
 
-
+    windowForm.fotEach((item, i) => {
+        item.addEventListener('click', () => {
+            state.fotm = i;
+        })
+    });
 
 
 };
