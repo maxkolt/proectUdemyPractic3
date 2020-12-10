@@ -1,23 +1,33 @@
-import "./slider";
 import modals from './modules/modals';
-import tabs from './modules/tabs';
+import sliders from './modules/sliders';
 import forms from './modules/forms';
-import changeModalState from './modules/changeModalState';
-import timer from './modules/timer';
-import images from './modules/images';
+import mask from './modules/mask';
+import checkTextInputs from './modules/checkTextInputs';
+import showMoreStyles from './modules/showMoreStyles';
+import calc from './modules/calc';
+import filter from './modules/filter';
+import pictureSize from './modules/pictureSize';
+import accordion from './modules/accordion';
+import burger from './modules/burger';
+import scrolling from './modules/scrolling';
+import drop from './modules/drop';
 
 window.addEventListener('DOMContentLoaded', () => {
-    "use strict";
+    'use strict';
 
-    let modalState = {};
-    let deadline = '2020-02-01';
-
-    changeModalState(modalState);
     modals();
-    tabs('.glazing_slider ', '.glazing_block', '.glazing_content', 'active');
-    tabs('.decoration_slider', '.no_click', '.decoration_content > div > div', 'after_click');
-    tabs('.balcon_icons', '.balcon_icons_img', '.big_img > img', 'do_image_more', 'inline-block');
-    forms(modalState);
-    timer('.container1', deadline);
-    images();
+    sliders('.feedback-slider-item', 'horizontal', '.main-prev-btn', '.main-next-btn');
+    sliders('.main-slider-item', 'vertical');
+    forms();
+    mask('[name="phone"]');
+    checkTextInputs('[name="name"]');
+    checkTextInputs('[name="message"]');
+    showMoreStyles('.button-styles', '#styles .row');
+    calc('#size', '#material', '#options', '.promocode', '.calc-price');
+    filter();
+    pictureSize('.sizes-block');
+    accordion('.accordion-heading');
+    burger('.burger-menu', '.burger');
+    scrolling('.pageup');
+    drop();
 });
